@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link href="css/grid.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+    <title>Welcome to Contact Us</title>
+</head>
+<body>
+    <h1 class="hidden">Welcom to Contact Us</h1>
+    <div id="sticky-nav-con">
+        <header class="grid-con" id="main-header">
+            <nav id="main-nav" class="col-span-full m-col-start-4 m-col-end-11">
+                <h2 class="hidden">Main Navigation</h2>
+                <button id="button"></button>
+                <div id="burger-con">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                </div>
+            </nav>
+            <div id="logo" class="col-span-2 col-end-4 m-col-start-1 m-col-end-4">
+                <img src="images/logo_color.svg" alt="brand logo">
+            </div>
+        </header>
+    </div>
+
+    <main>
+        <section class="grid-con">
+          <div class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">
+            <section id="contact-form-section">
+              <h2>Contact Us</h2>
+              <p class="contact-intro">We are here to refresh your day — let us know how we can help.</p>
+              <form action="#" method="post" enctype="text/plain">
+                <input name="fullName" type="text" required placeholder="First & Last Name">
+                <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                <input name="submit" type="submit" value="Send">
+              </form>
+            </section>
+          </div>
+        </section>
+      </main>
+
+<footer>
+    <div class="grid-con">
+        <div id="logo-bottom" class="col-span-full m-col-start-1 m-col-end-4">
+            <img src="images/logo.svg" alt="brand logo black" height="50">
+        </div>
+        <nav id="footer-nav" class="col-span-full m-col-span-full l.col-span-full">
+            <h2 class="hidden">Footer Nav</h2>
+            <ul>
+                <li>About Us</li>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Media</a></li>
+                <li>Help</li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="footer-icons col-span-full m-col-span-full l-col-span-full">
+            <img src="images/X.svg" height="30" alt="X logo">
+            <img src="images/Ins.svg" height="30" alt="ins logo">
+            <img src="images/tiktoc.svg" height="30" alt="tiktoc logo">
+        </div>
+    </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
