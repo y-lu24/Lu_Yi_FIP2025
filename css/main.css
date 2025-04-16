@@ -211,11 +211,37 @@
     width: 150px;
     align-self: flex-end;
     cursor: pointer;
-  }
+}
   
   #contact-form-section input[type="submit"]:hover {
     background-color: #f2de79;
     border-radius: 0;
+}
+
+#thankyou-box {
+    background-color: #fceda6;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: #000000;
+    margin: 30px;
+  }
+  
+  #thankyou-box h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  
+  #thankyou-box p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #thankyou-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
   }
   
 #quatro-pineapple {
