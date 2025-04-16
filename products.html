@@ -30,28 +30,140 @@
         </header>
     </div>
     <main>
-        <main>
-        <div id="quatro-pineapple"></div>
-            <div class="grid-con">
-                <h2 class="hidden">Check Our Products</h2>
-                    <h3 class="col-start-2 col-end-4 m-col-start-6 m-col-end-13 l-col-start-6 l-col-end-13">Quatro Pineapple</h3>
-                    <p class="col-start-1 col-end-5 m-col-start-1 m-col-end-13 l-col-start-1 l-col-end-13">Lorem ipsum odor amet, consectetuer adipiscing elit. Class ultrices lacinia bibendum vulputate cras taciti. Duis mollis accumsan elit lorem tincidunt? Phasellus lacinia consequat massa consequat, dis ligula nullam varius justo.</p>
-                    <p class="col-start-1 col-end-5 m-col-start-1 m-col-end-13 l-col-start-1 l-col-end-13">Available Sizes: 480 ml, 330 ml</p>
-            </div>
-            <div id="quatro-grapefruit"></div>
-            <div class="grid-con">
-                <h3 class="col-start-2 col-end-4 m-col-start-6 m-col-end-13 l-col-start-6 l-col-end-13">Quatro GrapeFruit</h3>
-                <p class="col-start-1 col-end-5 m-col-start-1 m-col-end-13 l-col-start-1 l-col-end-13">Lorem ipsum odor amet, consectetuer adipiscing elit. Class ultrices lacinia bibendum vulputate cras taciti. Duis mollis accumsan elit lorem tincidunt? Phasellus lacinia consequat massa consequat, dis ligula nullam varius justo.</p>
-                <p class="col-start-1 col-end-5 m-col-start-1 m-col-end-13 l-col-start-1 l-col-end-13">Available Sizes: 480 ml, 330 ml</p>
-            </div>
+        <section class="grid-con" id="grape-product">
+            <div class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">
+              <h3>Quatro Grape</h3>
+              <img 
+                id="grape-img"
+                sizes="
+                    (min-width: 900px) 1200px, 
+                    (min-width: 650px) 800px,
+                    (min-width: 400px) 600px,
+				    100vw"
+                srcset="
+                    images/grape-group-1320.jpg 1320w,
+                    images/grape-group-870.jpg 870w,
+                    images/grape-group-440.jpg 440w"
+                src="images/grape-group-440.jpg"
+                alt="Grape Product Image" />
 
+                <div class="product-description">
+                    <p><strong>A Symphony of Sweetness</strong></p>
+                    <p>Bursting with the lush essence of sun-ripened grapes, this flavor dances between juicy sweetness and a crisp, refreshing finish.</p>
+                </div>
+          
+              <ul class="size-buttons" data-target="grape">
+                <li data-size="group"><button>All Sizes</button></li>
+                <li data-size="330"><button>330ml</button></li>
+                <li data-size="480"><button>480ml</button></li>
+              </ul>
+            </div>
+          </section>
+
+        <section class="grid-con" id="passion-product">
+            <div class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">
+              <h3>Quatro Passion Fruit</h3>
+              <img 
+                id="passion-img"
+                sizes="
+                    (min-width: 900px) 1200px, 
+                    (min-width: 650px) 800px,
+                    (min-width: 400px) 600px,
+				    100vw"
+                srcset="
+                  images/passion-group-1320.jpg 1320w,
+                  images/passion-group-870.jpg 870w,
+                  images/passion-group-440.jpg 440w"
+                src="images/passion-group-440.jpg"
+                alt="Passion Fruit Product Image" />
+          
+              <div class="product-description">
+                <p><strong>Tropical Electrified</strong></p>
+                <p>
+                  Unleash the vibrant tang of golden passionfruit, balanced with a whisper of floral notes. A bold, exotic escape that tingles your taste buds like a tropical breeze.
+                </p>
+              </div>
+          
+              <ul class="size-buttons" data-target="passion">
+                <li data-size="group"><button>All Sizes</button></li>
+                <li data-size="330"><button>330ml</button></li>
+                <li data-size="480"><button>480ml</button></li>
+              </ul>
+            </div>
+        </section>
+
+        <section class="grid-con" id="orange-product">
+            <div class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">
+              <h3>Quatro Orange</h3>
+          
+              <img 
+                id="orange-img"
+                sizes="
+                    (min-width: 900px) 1200px, 
+                    (min-width: 650px) 800px,
+                    (min-width: 400px) 600px,
+				    100vw"
+                srcset="
+                  images/orange-group-1320.jpg 1320w,
+                  images/orange-group-870.jpg 870w,
+                  images/orange-group-440.jpg 440w"
+                src="images/orange-group-440.jpg"
+                alt="Orange Product Image" />
+          
+              <div class="product-description">
+                <p><strong>Citrus Reimagined</strong></p>
+                <p>
+                  Bright, zingy orange essence collides with a hint of honeyed nectar.Vitamin C never tasted this lively—like sunshine peeling away the everyday.</p>
+              </div>
+          
+              <ul class="size-buttons" data-target="orange">
+                <li data-size="group"><button>All Sizes</button></li>
+                <li data-size="330"><button>330ml</button></li>
+                <li data-size="480"><button>480ml</button></li>
+              </ul>
+            </div>
+        </section>
+
+        
         <section class="grid-con">
             <div class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">
                 <section id="explore">
-                    <p>Explore Our Products</p>
+                    <p>Explore More</p>
                 </section>
             </div>
         </section>
+  
+
+        <section class="grid-con hidden" id="pineapple-product">
+            <div class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">
+              <h3>Quatro Pineapple</h3>
+
+            <img 
+                id="pineapple-img"
+                sizes="
+                    (min-width: 900px) 1200px, 
+                    (min-width: 650px) 800px,
+                    (min-width: 400px) 600px,
+				    100vw"
+                srcset="
+                    images/pineapple-group-1320.jpg 1320w,
+                    images/pineapple-group-870.jpg 870w,
+                    images/pineapple-group-440.jpg 440w"
+                src="images/pineapple-group-440.jpg"
+                alt="Pineapple Product Image" />
+  
+            <div class="product-description">
+                <p><strong>Sunshine in a Sip</strong></p>
+                <p>Juicy pineapple chunks meet sun-warmed caramelized sweetness, blended with a zesty kick. Close your eyes—it is a beach vacation bottled just for you.</p>
+      </div>
+  
+      <ul class="size-buttons" data-target="pineapple">
+        <li data-size="group"><button>All Sizes</button></li>
+        <li data-size="330"><button>330ml</button></li>
+        <li data-size="480"><button>480ml</button></li>
+      </ul>
+    </div>
+  </section>
         
         <section id="follow">
             <section class="grid-con">
@@ -73,7 +185,7 @@
             <div id="logo-bottom" class="col-span-full m-col-start-1 m-col-end-4">
                 <img src="images/logo.svg" alt="brand logo black" height="50">
             </div>
-            <nav id="footer-nav" class="col-span-full m-col-span-full l.col-span-full">
+            <nav id="footer-nav" class="col-span-full m-col-span-full l-col-span-full">
                 <h2 class="hidden">Footer Nav</h2>
                 <ul>
                     <li>About Us</li>

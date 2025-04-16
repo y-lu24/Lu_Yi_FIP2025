@@ -1,3 +1,7 @@
+.hidden {
+    display: none;
+}
+
 #mobile-outline {
     outline: 20px solid #333;
     max-width: 412px;
@@ -47,7 +51,7 @@
  
  #main-nav ul li:last-child {
     margin-bottom: 10px;
- }
+}
 
 #burger-con {
     margin-top: 20px;
@@ -105,6 +109,79 @@
 
 #video {
     padding-top: 20px;
+}
+
+#grape-product {
+    margin-top: 80px;
+}
+
+.product-image-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+  
+.size-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+#explore {
+    animation: pulseFade 1.5s ease-in-out infinite;
+  }
+  
+  @keyframes pulseFade {
+    0%, 100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.7;
+      transform: scale(1.03);
+    }
+}
+  
+.size-buttons li button {
+    background-color: #8ef07f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+.size-buttons li button:hover {
+    background-color: #f2de79;
+}
+
+.product-description {
+    background-color: #d6fbd9; 
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #050505;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 26px;
+    color: #050505;
+}
+  
+.product-image {
+    margin-bottom: 20px;
 }
 
 #explore {
@@ -187,7 +264,7 @@
     flex-direction: column;
 }
   
-  #contact-form-section input, #contact-form-section textarea {
+#contact-form-section input, #contact-form-section textarea {
     padding: 20px;
     border: 2px solid #f8b4b4;
     background-color: #ffffff;
@@ -195,14 +272,14 @@
     margin-bottom: 20px;
     font: inherit;
     color: #000000;
-  }
+}
   
-  #contact-form-section textarea {
+#contact-form-section textarea {
     height: 200px;
     resize: vertical;
-  }
+}
   
-  #contact-form-section input[type="submit"] {
+#contact-form-section input[type="submit"] {
     padding: 12px 28px;
     background: #8ef07f;;
     color: #fff;
@@ -213,7 +290,7 @@
     cursor: pointer;
 }
   
-  #contact-form-section input[type="submit"]:hover {
+#contact-form-section input[type="submit"]:hover {
     background-color: #f2de79;
     border-radius: 0;
 }
@@ -225,89 +302,23 @@
     text-align: center;
     color: #000000;
     margin: 30px;
-  }
+}
   
-  #thankyou-box h2 {
+#thankyou-box h2 {
     font-size: 32px;
     margin-bottom: 15px;
-  }
+}
   
-  #thankyou-box p {
+#thankyou-box p {
     font-size: 18px;
     margin-bottom: 20px;
-  }
+}
   
-  #thankyou-box img {
+#thankyou-box img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
     margin-top: 10px;
-  }
-  
-#quatro-pineapple {
-    display: block;
-    max-width: 1200px;
-    background-size: cover;
-    background-position: center;
-    background-image: url('../images/pineapple-440.jpg');
-    height: 400px;
-    margin: 20px;
-}
-
-@media screen and (min-width: 400px){
-    #quatro-pineapple {
-        background-image:url('../images/pineapple-870.jpg');
-        background-position: center;
-    }
-}
-
-@media screen and (min-width: 650px){
-    #quatro-pineapple {
-        height: 650px;
-        background-image:url('../images/pineapple-870.jpg');
-        margin: 20px 120px;
-    }
-}
-
-@media screen and (min-width: 900px) {
-    #quatro-pineapple {
-        height: 900px;
-        margin: 20px 360px;
-        background-image:url('../images/pineapple-1320.jpg');
-}
-}
-
-#quatro-grapefruit {
-    display: block;
-    max-width: 1200px;
-    background-size: cover;
-    background-position: center;
-    background-image: url('../images/Grape-440.jpg');
-    height: 400px;
-    margin: 20px;
-}
-
-@media screen and (min-width: 400px){
-    #quatro-grapefruit {
-        background-image:url('../images/Grape-870.jpg');
-        background-position: center;
-    }
-}
-
-@media screen and (min-width: 650px){
-    #quatro-grapefruit {
-        height: 650px;
-        background-image:url('../images/Grape-870.jpg');
-        margin: 20px 120px;
-    }
-}
-
-@media screen and (min-width: 900px) {
-    #quatro-grapefruit {
-        height: 900px;
-        margin: 20px 360px;
-        background-image:url('../images/Grape-1320.jpg');
-}
 }
 
 footer {
